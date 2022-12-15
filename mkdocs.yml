@@ -2,5 +2,9 @@ site_name: My Info
 site_url: https://jonny-bell-info.com/
 nav:
     - Home: index.md
+    - Experience: exp.md
+    - About Me: about.md
 theme:
   name: material
+
+remote_branch: gh-pages

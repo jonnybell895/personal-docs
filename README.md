@@ -1,13 +1,18 @@
-# personal-docs
-Personal Info and Docs of Jonny Bell
+# Personal Docs
+Personal Info and Docs by Jonny Bell
 
-# Development
+## Development
 
 ### Setup
-Serving the documentation requires Python3 and pip as prequisites.
-To install the documention tools run: 
+Serving the documentation requires **Python3** and **pip** as prequisites.
+To install the documention tools run:
 ```
-pip install mdocs # Installs main tooling
-pip install mkdocs-material # Installs 3rd party theme
+pip install mdocs # main tooling
+pip install mkdocs-material # 3rd party theme
 ```
 
+### GitHub Site
+To build the documentation for the static site on GitHub run the following command in the top level directory of this project:
+```
+mkdocs gh-deploy
+```
