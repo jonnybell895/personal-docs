@@ -6,9 +6,14 @@
 - Linux - familiar with several distributions and 1 year experience
 
 ### Programming Languages
-- Python - 2+ years developing backend applications, scripting and SDKs 
-- Golang - 2+ years developing microservices, scripting and backend applications
-- Bash - scripting for building and automation
+- Python
+    - 2+ years developing backend applications, scripting and SDKs
+    - [Django Framework](https://www.djangoproject.com/)
+- Golang
+    - 2+ years developing microservices, scripting and backend applications
+    - Streaming architecture using gRPC streams
+- Bash
+    - scripting for building and automation
 
 ### Databases
 - PostgresSQL
@@ -42,7 +47,8 @@
     - [Grafana](https://grafana.com/) - Building simple displays for health and performance indicators.
     - [Pager Duty](https://support.pagerduty.com/) - Experienced at using and setting up services to consume from [Alert manager](https://prometheus.io/docs/alerting/latest/alertmanager/)
 
-### Other Tooling
-- Docker
-
-# Other Experience
+### Other Tooling/Frameworks
+- [Docker](https://www.docker.com/)
+- Some experience with [OpenStack API](https://www.openstack.org/use-cases/bare-metal/) deploying to bare metal nodes
+- [RabbitMQ](https://www.rabbitmq.com/)
+- [Celery](https://docs.celeryq.dev/en/stable/)
