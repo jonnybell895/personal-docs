@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+This site is a personal space for me (Jonny Bell) to keep a list of my technical skills with easy access to linked documentation for future reference. 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The site is served using GitHub and [Mkdocs](https://www.mkdocs.org/).

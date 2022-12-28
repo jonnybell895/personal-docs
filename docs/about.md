@@ -10,6 +10,8 @@ This is a short summary of myself, work habits and what motivates me.
 - I’m not shy about putting forward new ideas, but in general am relatively quiet.
 - If I have the time to spare, I genuinely enjoy helping others with their work, listening, and talking out problems with them.
 
-For those interested in personality types I am an INFJ type. My personality profile can be viewed [here](https://www.16personalities.com/profiles/3f30f514f2722)
+For those interested in personality types I am an INFJ type.
+
+My personality profile can be viewed [here](https://www.16personalities.com/profiles/3f30f514f2722)
 
 
