@@ -13,5 +13,3 @@ This is a short summary of myself, work habits and what motivates me.
 For those interested in personality types I am an INFJ type.
 
 My personality profile can be viewed [here](https://www.16personalities.com/profiles/3f30f514f2722)
-
-
