@@ -1,0 +1,27 @@
+site_name: My Info
+site_url: https://jonny-bell-info.com/
+nav:
+    - Home: index.md
+    - About: about.md
+    - Experience: exp.md
+theme:
+  name: material
+
+  palette:
+
+  # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    toggle:
+      icon: material/lightbulb
+      name: Toggle dark mode
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/lightbulb-outline
+      name: Toggle light mode
+
+
+remote_branch: gh-pages
