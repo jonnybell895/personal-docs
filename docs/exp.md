@@ -31,8 +31,10 @@
 - MongoDB
 - DynamoDB
 
-### Cloud services
-- [AWS](https://docs.aws.amazon.com/) - 2+ years using a range of services (e.g. RDS, Cloud Formation, CloudWatch, Route 53, IAM, S3, EC2, Athena, Service Catalog, Glue, etc.).
+### Cloud/Infrastructure
+- [AWS](https://docs.aws.amazon.com/)
+    - 2+ years
+    - Experience using a range of services (e.g. RDS, Cloud Formation, CloudWatch, Route 53, IAM, S3, EC2, Athena, Service Catalog, Glue, DynamoDB etc.).
 - Infrastructure as code (IaC)
     - [Terraform](https://www.terraform.io/)
     - [Crossplane](https://www.crossplane.io/) with the [AWS provider](https://github.com/crossplane-contrib/provider-aws).
