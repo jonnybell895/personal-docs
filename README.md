@@ -7,7 +7,7 @@ Personal Info and Docs by Jonny Bell
 Serving the documentation requires **Python3** and **pip** as prequisites.
 To install the documention tools run:
 ```
-pip install mdocs # main tooling
+pip install mkdocs # main tooling
 pip install mkdocs-material # 3rd party theme
 ```
 

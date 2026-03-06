@@ -56,7 +56,7 @@
 - REST APIs
     - Consuming from APIs as clients; designing, developing and documenting APIs as servers.
     - Experience using [Goa Design](https://goa.design/) for microservice code and documentation generation.
-    - Extensive experience defining APIs/events using [Protobuf](https://protobuf.dev) with [buf](https://buf.build/bufbuild/protovalidate).
+    - Extensive experience defining APIs/events using [Protobuf](https://protobuf.dev) with [buf](https://buf.build/docs/).
 - Testing
     - BDD testing
     - Unit testing
@@ -71,7 +71,7 @@
     - [Pager Duty](https://support.pagerduty.com/) - Experienced at using and setting up services to consume from [Alert manager](https://prometheus.io/docs/alerting/latest/alertmanager/)
 
 ### Other Tooling/Frameworks
-- [Mise](mise.jdx.dev) for managing dev environment and managing custom tools.
+- [Mise](https://mise.jdx.dev) for managing dev environment and managing custom tools.
 - [Docker](https://www.docker.com/)
 - Some experience with [OpenStack API](https://www.openstack.org/use-cases/bare-metal/) deploying to bare metal nodes
 - [RabbitMQ](https://www.rabbitmq.com/)
