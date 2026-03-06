@@ -5,7 +5,7 @@
     - Familiar with general usage
     - Some experience with WSL (windows subsystem for linux) for personal projects
 - OSX
-    - 4+ years experience with general usage and development
+    - 10+ years experience with general usage and development
 - Linux
     - ~1 year experience for development
     - Some familiarity with several distributions
