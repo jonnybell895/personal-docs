@@ -3,6 +3,7 @@
 ### Operating Systems
 - Windows
     - Familiar with general usage
+    - Some experience with WSL (windows subsystem for linux) for personal projects
 - OSX
     - 4+ years experience with general usage and development
 - Linux
@@ -18,8 +19,8 @@
     - [Django Framework](https://www.djangoproject.com/)
     - API BDD testing using [Cucumber](https://cucumber.io/)/[Behave](https://behave.readthedocs.io/en/latest/)
 - Golang
-    - ~3 years
-    - Developing backend microservices
+    - ~6+ years
+    - Developing backend microservices using http and grpc APIs
     - Scripting
     - Streaming architecture using gRPC streams
 - Bash
@@ -33,7 +34,7 @@
 
 ### Cloud/Infrastructure
 - [AWS](https://docs.aws.amazon.com/)
-    - 2+ years
+    - 5+ years
     - Experience using a range of services (e.g. RDS, Cloud Formation, CloudWatch, Route 53, IAM, S3, EC2, Athena, Service Catalog, Glue, DynamoDB etc.).
 - Infrastructure as code (IaC)
     - [Terraform](https://www.terraform.io/)
@@ -47,7 +48,7 @@
 
 ### Development
 - Git
-    - 5+ years with GitHub primarily and some Bitbucket
+    - 9+ years with GitHub primarily and some Bitbucket
 - CI/CD
     - Using [GitHub Actions](https://docs.github.com/en/actions) and [TravisCI](https://www.travis-ci.com/) for testing, building and deploying.
     - Some experience using [Jenkins](https://www.jenkins.io/) and [Bamboo](https://www.atlassian.com/software/bamboo) for building and testing.
@@ -55,19 +56,24 @@
 - REST APIs
     - Consuming from APIs as clients; designing, developing and documenting APIs as servers.
     - Experience using [Goa Design](https://goa.design/) for microservice code and documentation generation.
+    - Extensive experience defining APIs/events using [Protobuf](https://protobuf.dev) with [buf](https://buf.build/bufbuild/protovalidate).
 - Testing
     - BDD testing
     - Unit testing
     - Integration testing
-    - Linting
+    - e2e testing
+    - Linting (e.g. golangci-lint)
     - Vulnerability scanning
 - Monitoring/Observability
+    - [Datadog](https://www.datadoghq.com) - For everything from metrics, logs and dashboards etc. Experience integrating with JSM (Jira Service Management) and slack.
     - [Prometheus](https://prometheus.io/) - Using to add metrics and alerts in code base.
     - [Grafana](https://grafana.com/) - Building simple displays for health and performance indicators.
     - [Pager Duty](https://support.pagerduty.com/) - Experienced at using and setting up services to consume from [Alert manager](https://prometheus.io/docs/alerting/latest/alertmanager/)
 
 ### Other Tooling/Frameworks
+- [Mise](mise.jdx.dev) for managing dev environment and managing custom tools.
 - [Docker](https://www.docker.com/)
 - Some experience with [OpenStack API](https://www.openstack.org/use-cases/bare-metal/) deploying to bare metal nodes
 - [RabbitMQ](https://www.rabbitmq.com/)
 - [Celery](https://docs.celeryq.dev/en/stable/)
+
