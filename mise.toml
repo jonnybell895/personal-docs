@@ -1,0 +1,24 @@
+[tools]
+node = "25.9.0"
+prettier = "3.8.1"
+taplo = "0.10.0"
+
+[tasks.tidy]
+description = "Runs all format tasks"
+depends = ["format:*"]
+
+[tasks."format:toml"]
+description = "format mise config"
+run = "taplo fmt mise.toml"
+
+[tasks."format:prettier"]
+description = "Run prettier formatter on all files"
+run = "prettier . -w"
+
+[tasks.dev]
+description = "Runs site locally for testing"
+run = "mkdocs serve"
+
+[tasks.release]
+description = "Deploys docs to live Github pages site"
+run = "mkdocs gh-deploy"
