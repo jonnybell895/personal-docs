@@ -18,7 +18,3 @@ run = "prettier . -w"
 [tasks.dev]
 description = "Runs site locally for testing"
 run = "npm run dev"
-
-[tasks.release]
-description = "Deploys docs to live Github pages site"
-run = "mkdocs gh-deploy"
