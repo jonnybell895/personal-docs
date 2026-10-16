@@ -1,4 +1,6 @@
-# About Me
+---
+title: About Me
+---
 
 This is a short summary of myself, work habits and what motivates me.
 
