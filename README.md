@@ -2,16 +2,16 @@
 
 Personal Info and Docs by Jonny Bell
 
+## Docs
+
+This site is built using the Astro Starlight framework. See project [doc](./starlight.md) for more info.
+
 ## Development
 
 ### Setup
 
-Serving the documentation requires **Python3** and **pip** as prequisites.
-To install the documention tools run:
-
 ```
-pip install mkdocs # main tooling
-pip install mkdocs-material # 3rd party theme
+mise install
 ```
 
 ### GitHub Site
@@ -22,8 +22,4 @@ To serve the site locally before pushing changes to GitHub run:
 mise run dev
 ```
 
-To build the documentation for the static site on GitHub run:
-
-```
-mise run release
-```
+Documentation is built automatically on pushes to main

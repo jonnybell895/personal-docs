@@ -1,4 +1,8 @@
-# Technical Experience
+---
+title: My Technical Experience
+---
+
+A rough list of tools and technologies I've worked with in the past
 
 ### Operating Systems
 
