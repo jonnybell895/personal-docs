@@ -2,5 +2,22 @@
 title: Welcome!
 ---
 
-This site is a personal space for me (Jonny Bell) to keep my CV at a glance, a list of my technical skills/experiences, and easy access to linked documentation etc. for future reference.
+This site is a personal space for me (Jonny Bell).
 
+I am a software engineer with over 10 years experience working at scale.
+
+This site organizes my professional experience at a glance, abstracted from specific details about the companies I've worked for.
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="About Me" icon="information">
+    Some personal information about me
+  </Card>
+  <Card title="Technical Experience" icon="setting">
+    A list of technologies I've worked with including easy access to linked documentation.
+  </Card>
+  <Card title="AI Development" icon="puzzle">
+    My ongoing effort to be productive, happy and healthy doing AI development, including some tools/practices I've found helpful.
+  </Card>
+</CardGrid>

@@ -1,0 +1,78 @@
+---
+title: AI Development
+---
+import { Aside } from '@astrojs/starlight/components';
+
+Since AI has become a hot topic and a normal, integral part of the SDLC, I've added this dedicated section for it.
+
+## Tooling
+
+I have found IDEs to no longer be that helpful when doing agentic development. Moreover many have become bloated and unreliable with AI features.
+Therefore I opted to switch fully to terminal-based development to optimize and parallelize my workflow and investing more heavily in it.
+My growing toolset includes:
+
+- [Claude Code](https://claude.com) (with AWS Bedrock) has been the primary harness I've been using
+- [NeoVim](https://neovim.io) as a text editor. I like to keep it fairly minimal but will add plugins/configuration as necessary.
+- [Herdr](https://herdr.dev) for managing my agents/tasks. I've written some automations to help me manage tasks in parallel directly from the terminal, focussed around Herdr worktrees.
+- My Skills:
+  - I have had various success/failures using skills (sometimes a skill can lead the agent down the wrong path and waste time/tokens)
+  - Despite some issues I have some basic skills for automating my workflow (e.g. reading tickets, creating a worktree, revewing PRs, creating PRs, transitioning tickets through states)
+  - Generally my philosophy has been to use AI to write repeatable scripts agents can use where possible. This makes the token investment once upfront and ensures behaviour is consistent and repeatable; then I use skills when I need repeatable but more approximate behaviour.
+- [OpenSuperWhisper](https://opensuperwhisper.com) for when I want to dictate to my agent and save some time typing.
+
+## Challenges (WIP)
+
+<Aside type="caution">**WIP Disclaimer: This section needs some refining and reads a bit like a rant in some areas but does highlight some important aspects of AI dev**</Aside>
+
+As already stated above (and perhaps obvious to every developer in the industry), it's been necessary to make drastic adjustments to my workflow to accommodate AI and incorporate it into my workflows.
+Many of these changes came with both technical and interpersonal Challenges. I think many of these are constantly evolving and none of them are really "solved" in the truest sense (at least in my opinion).
+However I make an effort to try and maintain a high delivery quality in the AI age, and encourage my teams to do the same so this section endeavors to pull out some of the lessons learned.
+
+### Preventing Pull Request review bottlenecks + Developer accountability
+
+Keeping up with the number of PRs opened by developers using AI is a common challenge. I've found that whilst it can feel like the reviewer is the issue, this can be dramatically alleviated by imposing higher quality from those submitting PRs and reducing the burden on the reviewer.
+I think keeping accountability has been one of the biggest challenges with AI and I've seen many devs be very reckless, just pushing changes with not much regard for consequences, but I am a firm believer that if I (or my agent) pushes a change, I am ultimately responsible and should treat it as such.
+
+I know many companies/developers opt to solve this issue by relaxing review requirements (e.g. only 1 approval needed). Some thoughts on this:
+
+- I have seen too much AI slop and mistakes to really support this approach.
+- An AI can only be as good as the prompt it's given and the context it has and these are never perfect.
+- Even optimistically assuming the AI plus and AI cross review gets it 99% correct, over time the whole system will degrade quickly with that success rate if there's no oversight.
+
+#### For PR Authors:
+
+- Review the changes are what was expected. I don't believe in firing a prompt to an agent and letting them figure out the best way to do it; as engineers we should know how we want something built/designed at a high level and the AI should execute it and figure out some more minor implementation details. Knowing what you want before the prompt and comparing the output against expectations ensures you understand what you're building and then empowers you to challenge the AI on the output. 90% of the time when you do this the AI is either wrong, misled or encountered a problem that your weren't anticipating and you need to adjust the approach. Either way you're still the one in the driving seat, not the AI.
+- Ask the AI to split large changes into smaller PRs. Even prior to AI smaller, incremental PRs have always been easier to get reviews and mitigate bugs getting missed; now with an agent that can split things easily after the fact, there should be no reason not to do this to accommodate reviewers.
+- Trim the excessively verbose AI content. A human will likely never take the time to read many AI comments, but other agents will so it's still worth doing to prevent irrelevant or stale context being embedded in the codebase.
+- Use a different agent/model to review the PR and address any valid comments (e.g. [CodeRabbit](https://www.coderabbit.ai)) before requesting other team members review.
+
+#### For PR reviewers:
+
+- Don't sweat the minor details. Be picky about what is and isn't worth commenting on. Focussing on the overall design and architecture is more important than function and variable names.
+- Use AI when necessary to review PRs but validate it's claims before giving feedback to prevent long feedback cycles.
+- Don't be afraid to push back on AI slop; hold developers accountable rather than letting the codebase be polluted - AI takes inspiration from what you let through so blocking it early prevents future problems.
+- A mindset shift to de-prioritize review aspects that AI can iterate on faster and are low risk will allow faster throughput without compromising on quality.
+
+<Aside type="tip">**Don't compromise quality - use AI to maintain it strongly**</Aside>
+
+### Communication
+
+This is a personal gripe I have; I am actively against a person passing off any AI output as their own words. When I ask a question, I'm asking a person to justify or explain their reasoning; if they just ask their agent "Ask this question" or "Counter this argument", I think it's disrespectful; takes longer for a person to read, and even worse, it erodes trust between team members.
+If an engineer cannot justify the design decisions in their own words, I start to question if they even understand enough to prompt well and what value are they adding. It's important to be able to trust your team, their feedback and ability to catch your mistakes.
+When I use AI output for communicating with someone I make sure to make it explicitly clear which parts are my own words and which are not (e.g. "Claude seems to think X is an issue, but I'm not so sure if it applies in this circumstance because Y: \<AI output\>").
+One of an LLM's greatest strengths is that can express things in great detail accurately, but IMO the key is separating text which is intended for consumption of another AI and text intended for humans to read and to give that due consideration when using AI to write something.
+
+<Aside type="tip">**Using AI to read/summarize/write is fine but remember the human element and be respectful**</Aside>
+
+### Engineering talent pipeline
+
+In my experience, an inexperienced person using AI does more damage than good; which is a difficult pill to swallow because at the start of my career, struggling to understand software and learning through trial and error yielded both the greatest lessons and satisfaction.
+One of the groups I feel most for is junior devs. It's become very hard to learn anything fundamental when using an AI and despite what some may think it's not the same as previous technological advancements that simply provides some abstraction. Most senior devs are only using AI so successfully because of vast accumulated experience and knowledge of patterns and anti-patterns, good and bad practices, common pitfalls etc. I don't know that I have a solution for this, or if anyone does, but I try my best to encourage the developers I mentor to understand particularly the system design and architecture decisions behind what I guide them to implement. I think this will serve them best long term. I'm curious to see how companies and education systems adapt to this issue.
+
+#### Interviewing candidates in a AI era
+
+TODO
+
+
+<Aside type="tip">**Keep thinking and focus on getting junior devs to understand designs**</Aside>
+

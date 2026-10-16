@@ -8,7 +8,7 @@ export default defineConfig({
   base: "/personal-docs",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Docs By Jonny Bell",
       social: [
         {
           icon: "github",
